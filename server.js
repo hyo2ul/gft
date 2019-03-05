@@ -6,7 +6,6 @@ const app = new Koa();
 const router = new Router();
 
 app.use(serve('./dist'));
-// app.use(serve('./dist'));
 app.use(router.routes());
 app.use(router.allowedMethods());
 

@@ -4,8 +4,8 @@
 		<div class="ui three column stackable grid">
 			<div class="column"><h1 class="ui header">Heading 1</h1>
 				<h2 class="ui header">Heading 2</h2>
-				<h3 class="ui header">Heading 3</h3> <h4 class="ui header">Heading 4</h4> <h5 class="ui header">Heading
-					5</h5>
+				<h3 class="ui header">Heading 3</h3> <h4 class="ui header">Heading 4</h4>
+				<h5 class="ui header">Heading 5</h5>
 				<p>
 					Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
 					natoque penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -63,8 +63,7 @@
 				</div>
 				<div class="right menu">
 					<div class="item">
-						<div class="ui action left icon input" placeholder="Submit"><input type="text"
-						                                                                   placeholder="Submit"><i
+						<div class="ui action left icon input" placeholder="Submit"><input type="text" placeholder="Submit"><i
 							class="search icon"></i>
 							<button role="button" class="ui button">Submit</button>
 						</div>
@@ -89,8 +88,7 @@
 				</div>
 				<div class="right menu">
 					<div class="item">
-						<div class="ui transparent inverted icon input" placeholder="Submit"><input type="text"
-						                                                                            placeholder="Submit"><i
+						<div class="ui transparent inverted icon input" placeholder="Submit"><input type="text" placeholder="Submit"><i
 							class="search icon"></i></div>
 					</div>
 					<a class="item">Link</a></div>
@@ -100,8 +98,7 @@
 				<a class="item">Link</a>
 				<div class="right menu menu">
 					<div class="item">
-						<div class="ui action left icon input" placeholder="Search"><input type="text"
-						                                                                   placeholder="Search"><i
+						<div class="ui action left icon input" placeholder="Search"><input type="text" placeholder="Search"><i
 							class="search icon"></i>
 							<button role="button" class="ui button">Submit</button>
 						</div>
@@ -150,8 +147,7 @@
 					<div class="ui divider"></div>
 					<div class="ui buttons">
 						<button role="button" class="ui button">Combo</button>
-						<div role="listbox" tabindex="0" class="ui button floating dropdown"><i aria-hidden="true"
-						                                                                        class="dropdown icon"></i><span
+						<div role="listbox" tabindex="0" class="ui button floating dropdown"><i aria-hidden="true" class="dropdown icon"></i><span
 							class="sizer"></span>
 							<div tabindex="-1" class="menu transition">
 								<div role="option" class="item">Choice 1</div>
@@ -160,8 +156,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="ui floating search dropdown button"><input autocomplete="off" tabindex="0"
-					                                                       class="search"> <span class="text">Search Dropdown</span>
+					<div class="ui floating search dropdown button"><input autocomplete="off" tabindex="0" class="search"> <span class="text">Search Dropdown</span>
 						<div tabindex="-1" class="menu">
 							<div class="item">Arabic</div>
 							<div class="item">Chinese</div>
@@ -720,11 +715,9 @@
 		<div>
 			<div class="ui two column stackable grid">
 				<div class="column">
-					<div class="ui left icon input" placeholder="Search..."><input type="text"
-					                                                               placeholder="Search..."><i
+					<div class="ui left icon input" placeholder="Search..."><input type="text" eholder="Search..."><i
 						class="search icon"></i></div>
-					<div class="ui action left icon input"><i class="search icon"></i> <input type="text"
-					                                                                          placeholder="Search...">
+					<div class="ui action left icon input"><i class="search icon"></i> <input type="text" placeholder="Search...">
 						<div class="ui teal button">Search</div>
 					</div>
 					<div class="ui divider"></div>
@@ -743,18 +736,14 @@
 						</div>
 					</div>
 					<div class="ui divider"></div>
-					<div class="ui transparent icon input" placeholder="Search..."><input type="text"
-					                                                                      placeholder="Search..."><i
+					<div class="ui transparent icon input" placeholder="Search..."><input type="text" placeholder="Search..."><i
 						class="search icon"></i></div>
-					<div class="ui transparent left icon input" placeholder="Search..."><input type="text"
-					                                                                           placeholder="Search..."><i
+					<div class="ui transparent left icon input" placeholder="Search..."><input type="text" placeholder="Search..."><i
 						class="search icon"></i></div>
 					<div class="ui divider"></div>
-					<div class="ui loading left icon input" placeholder="Loading..."><input type="text"
-					                                                                        placeholder="Loading..."><i
+					<div class="ui loading left icon input" placeholder="Loading..."><input type="text" placeholder="Loading..."><i
 						class="loading icon"></i></div>
-					<div class="ui loading icon input" placeholder="Loading..."><input type="text"
-					                                                                   placeholder="Loading..."><i
+					<div class="ui loading icon input" placeholder="Loading..."><input type="text" placeholder="Loading..."><i
 						class="loading icon"></i></div>
 				</div>
 				<div class="column">
@@ -842,8 +831,7 @@
 				</div>
 				<div class="ui card">
 					<div class="content">
-						<div class="header"><img src="static/images/wireframes/square-image.png"
-						                         class="ui avatar right spaced image">
+						<div class="header"><img src="static/images/wireframes/square-image.png" class="ui avatar right spaced image">
 							Abbreviated Header
 						</div>
 						<div class="description"><img src="static/images/wireframes/paragraph.png" class="ui image">
@@ -862,12 +850,10 @@
 					<div class="content">
 						<div class="header">Cute Dog</div>
 						<div class="meta"><span class="category">Animals</span></div>
-						<div class="description"><img src="static/images/wireframes/paragraph.png"
-						                              class="ui wireframe image"></div>
+						<div class="description"><img src="static/images/wireframes/paragraph.png" class="ui wireframe image"></div>
 					</div>
 					<div class="extra content">
-						<div class="right floated author"><img src="static/images/wireframes/square-image.png"
-						                                       class="ui avatar image"> Username
+						<div class="right floated author"><img src="static/images/wireframes/square-image.png" class="ui avatar image"> Username
 						</div>
 					</div>
 				</a>

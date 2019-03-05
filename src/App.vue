@@ -7,15 +7,12 @@
 
 <script>
 
-import BreadCrumb from './components/ui/breadcrumb';
+  import BreadCrumb from './components/ui/breadcrumb';
 
-export default {
-  name: 'app',
-  components: {
-    BreadCrumb,
-  },
-};
+  export default {
+    name: 'app',
+    components: {
+      BreadCrumb,
+    },
+  };
 </script>
-
-<style>
-</style>

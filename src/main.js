@@ -1,19 +1,19 @@
-import Vue from 'vue';
-import SuiVue from 'semantic-ui-vue';
-import App from './App.vue';
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
 
-import router from './router';
+import './plugins/vuetify'
 
 /* Vue UI Libraries */
-import 'normalize.css';
+import SuiVue from 'semantic-ui-vue';
 import 'semantic-ui-css/semantic.min.css';
 import '../semantic/dist/semantic.min.css';
-import store from './store';
 
-Vue.use(SuiVue);
+Vue.use(SuiVue)
 
 new Vue({
-  render: h => h(App),
-  store,
   router,
-}).$mount('#app');
+  store,
+  render: h => h(App)
+}).$mount('#app')
