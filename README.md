@@ -1,4 +1,4 @@
-# ninja-custom
+# giftiel-scaffolding
 
 ## Project setup
 ```
