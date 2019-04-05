@@ -42,6 +42,7 @@ module.exports = {
       'views': resolve('src/views'),
       'mixins': resolve('src/mixins'),
       'images': resolve('src/assets/images'),
+      'dummy': resolve('src/dummyData'),
     }
   },
   module: {

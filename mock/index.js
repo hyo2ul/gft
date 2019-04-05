@@ -20,7 +20,7 @@ Mock.mock(/\/user\/login/, 'post', userAPI.login)
 Mock.mock(/\/user\/info/, 'get', userAPI.getInfo)
 Mock.mock(/\/user\/logout/, 'post', userAPI.logout)
 
-// Table
+// TestTable
 Mock.mock(/\/table\/list/, 'get', tableAPI.list)
 
 export default Mock

@@ -31,9 +31,9 @@ export const constantRouterMap = [
   //   children: [
   //     {
   //       path: 'table',
-  //       name: 'Table',
+  //       name: 'TestTable',
   //       component: () => import('views/pages/table/index'),
-  //       meta: { title: 'Table', icon: 'table' }
+  //       meta: { title: 'TestTable', icon: 'table' }
   //     },
   //     {
   //       path: 'tree',

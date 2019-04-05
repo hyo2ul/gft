@@ -23,6 +23,7 @@
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
     "vue": "2.5.17",
+    "vue-json-excel": "^0.2.98",
     "vue-router": "3.0.1",
     "vuex": "3.0.1"
   },
