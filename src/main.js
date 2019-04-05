@@ -1,19 +1,31 @@
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+
+import 'normalize.css/normalize.css' // A modern alternative to CSS resets
+
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+import 'assets/styles/index.scss' // global css
+
+import App from './App'
 import store from './store'
+import router from './router'
 
-import './plugins/vuetify'
+import 'assets/icons' // icon
+// import '@/permission' // permission control
 
-/* Vue UI Libraries */
-import SuiVue from 'semantic-ui-vue';
-import 'semantic-ui-css/semantic.min.css';
-import '../semantic/dist/semantic.min.css';
+// components
+import AppLink from 'views/components/Link'
 
-Vue.use(SuiVue)
+Vue.use(ElementUI)
+
+Vue.component('app-link', AppLink)
+
+Vue.config.productionTip = false
 
 new Vue({
+  el: '#app',
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+})

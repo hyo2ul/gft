@@ -1,11 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div class="app-main">
+    this is main
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+
 }
 </script>
+
+<style scoped />
